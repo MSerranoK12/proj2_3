@@ -178,7 +178,7 @@ border: 1px solid #ccc;}
 float: left;}
 div.gallery:hover{border: 2px solid #777;}
 div.gallery img{width: 50%;}
-height: 5px;}
+height: auto;}
 div.desc{padding: 10px;
 text-align: center;
 font-size: 1.25em}
