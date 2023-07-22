@@ -1,22 +1,19 @@
 /*
 CSS
 Author: Maria Serrano
-Date: 2023-7-8
+Date: 2023-7-21
 Filename: main.css
 */
 /*HTML and Body Styles*/
-
-address, article, aside, blockquote, body, cite, div, h1, h2, h3,footer, header, img, main, nav, section, section1, ul{
-display: block;
+address, article, aside, blockquote, body, cite, div, h1, h2, h3,footer, header, img, main, nav, section, section1, ul
+{display: block;
 background: transparent;
 font-size: 100%;
 margin: 0;
 padding: 0;
 vertical-align: baseline;
 box-sizing: border-box;}
-
-body {
-line-height: 1;
+body{line-height: 1;
 background-color: rgba(248, 218, 90, 0.17);
 font-family: 'Trebuchet MS', Helvetica, sans-serif;
 padding: 5px;
@@ -25,87 +22,57 @@ margin-right: auto;
 max-width: 960px;
 min-width: 640px;
 width: 95%;}
-
-
 /* Body Header Styles*/
 .center{  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;}
+margin-left: auto;
+margin-right: auto;
+width: 100%;}
 h2{text-align: center;}
-
 h3{text-align: center;
 line-height: 2.5em}
-
-
-nav ul{
-    list-style: none;
-    list-style-image: none;
-}
+nav ul{list-style: none;
+list-style-image: none;}
 nav a{text-decoration: none;}
-
-
 /* Horizontal Navigation Styles */
-body>header>nav.horizontalNavigation li 
-{width: 25%;}
+body>header>nav.horizontalNavigation li{width: 25%;}
 nav.horizontalNavigation li{display: block;
 float: left;}
-
-<div#outer {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 150px 2fr;}
-nav>ul{
-line-height: 1.5em;
+<div#outer{display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 150px 2fr;}
+nav>ul{line-height: 1.5em;
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #59a5b7;}
-
-nav>ul>li a {
-float:left;
+nav>ul>li a{float:left;
 display: block;
 color: #ffffff;
 text-align: center;
 padding: 12px 12px;
 text-decoration: none;
 width: 20%;}
-
-nav>ul>li a:hover:not(.active) {background-color: rgba(253, 129, 119, 0.81);}
-
-.active {background-color: #eadbdb;}
-
-
-
+nav>ul>li a:hover:not(.active){background-color: rgba(253, 129, 119, 0.81);}
+.active{background-color: #eadbdb;}
 /*Grid Styles for Page Body*/  
-body {
-    display: grid;
-    grid-template-columns: repeat(2fr 1fr);
-    grid-template-rows: repeat(150px 2fr);
-    grid-row-start: 1;
-    grid-row-end: 6;
-    grid-column-start: 1;
-grid-column-end: 2;
- }
-body>header{
-    grid-row: 1;
-    grid-column: 1/-1;
-}
-
-div#outer {
-    display: grid;
-    grid-template-columns: repeat 2fr 1fr;
-    grid-template-rows: repeat 150px 2fr;
-    grid-gap: 10px 30px;
-}
-
+body{display: grid;
+grid-template-columns: repeat(2fr 1fr);
+grid-template-rows: repeat(150px 2fr);
+grid-row-start: 1;
+grid-row-end: 6;
+grid-column-start: 1;
+grid-column-end: 2;}
+body>header{grid-row: 1;
+grid-column: 1/-1;}
+div#outer{display: grid;
+grid-template-columns: repeat 2fr 1fr;
+grid-template-rows: repeat 150px 2fr;
+grid-gap: 10px 30px;}
 body>*{outline: 2px solid #be0855;}
 section>*{outline: 2px dashed #2721be;}
-
 /* Grid Styles for Nested Grid*/
-div#item1,div#item4,div#item12{
-color: #1731c1;
+div#item1,div#item4,div#item12{color: #1731c1;
 letter-spacing: .3em;
 text-align: center;
 font-size: 3em;
@@ -114,51 +81,30 @@ grid-column: 1/-1;
 margin-top: 75px;
 align-self: center;
 justify-self: center;}
-
-div#item2{
-grid-row: 2;
+div#item2{grid-row: 2;
 grid-column: 2/3;
-    align-self: center;
-    justify-self: center;
-}
-
-div#item3{
-grid-row: 2/3;
+align-self: center;
+justify-self: center;}
+div#item3{grid-row: 2/3;
 grid-column: 1;
-margin-left: 10px;
-}
-
-p{
-color: #000000;
+margin-left: 10px;}
+p{color: #000000;
 text-align: left;
 font-size: 1.5em;
 margin-bottom: 20px;
 margin-right: 20px;
-margin-left: 20px;
-}
-
-div#item5{
-grid-row: 2;
+margin-left: 20px;}
+div#item5{grid-row: 2;
 grid-column: 2;
-    align-self: center;
-    justify-self: center;
-}
-div#item6{
-grid-row: 3;
-grid-column:2/3;
-}
-
-div#item7{
-grid-row: 4;
-    grid-column: 2/3;}
-    
-div#item8{
-grid-row: 5;
-grid-column: 2/3;
-}
-
-div#item9{
-color: #1731c1;
+align-self: center;
+justify-self: center;}
+div#item6{grid-row: 3;
+grid-column:2/3;}
+div#item7{grid-row: 4;
+grid-column: 2/3;}
+div#item8{grid-row: 5;
+grid-column: 2/3;}
+div#item9{color: #1731c1;
 letter-spacing: .3em;
 text-align: center;
 font-size: 3em;
@@ -167,106 +113,76 @@ grid-column: 1/-1;
 margin-top: 50px;
 align-self: center;
 justify-self: center;}
-
-div#item10{
-    grid-row: 2;
-    grid-column: 1/2;
-}
-div#item11{
-    grid-row: 3;
-    grid-column: 1/2;
-
-}
-div#item13{
-    grid-row: 2;
-    grid-column: 1/2;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
-}
-div#item14{
-    grid-row: 3;
-    grid-column: 1/2;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
-    }
-input[type=text]{
-    width: 75%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-      border: 2px solid #78b9db;
-  border-radius: 10px;
-}
-input[type=tel]{    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-    border: 2px solid #78b9db;
-    border-radius: 10px;}
-input[type=email]{    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-      border: 2px solid #78b9db;
-  border-radius: 10px;}
-input[type=message]{
-    width: 75%;
-    padding: 30px 50px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-    border: 2px solid #78b9db;
-    border-radius: 10px;
-    margin-bottom: 20px;}
-input[type=submit]{
-    padding: 12px 20px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-    border: 2px solid #7accb9;
-    color: #ffffff;
-    background-color: #83c0e6;
-    border-radius: 10px
-  }
-input[type=reset]{
-    padding: 12px 20px;
-    margin: 8px 0;
-    margin-left: 10px;
-    box-sizing: border-box;
-    border: 2px solid #c74d4d;
-    color: #ffffff;
-    background-color: #e68383;
-    border-radius: 10px
-  }
+div#item10{grid-row: 2;
+grid-column: 1/2;}
+div#item11{grid-row: 3;
+grid-column: 1/2;}
+div#item13{grid-row: 2;
+grid-column: 1/2;
+text-align: center;
+align-self: center;
+justify-self: center;}
+div#item14{grid-row: 3;
+grid-column: 1/2;
+text-align: center;
+align-self: center;
+justify-self: center;}
+input[type=text]{width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #78b9db;
+border-radius: 10px;}
+input[type=tel]{width: 25%;
+padding: 12px 20px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #78b9db;
+border-radius: 10px;}
+input[type=email]{width: 25%;
+padding: 12px 20px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #78b9db;
+border-radius: 10px;}
+input[type=message]{width: 75%;
+padding: 30px 50px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #78b9db;
+border-radius: 10px;
+margin-bottom: 20px;}
+input[type=submit]{padding: 12px 20px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #7accb9;
+color: #ffffff;
+background-color: #83c0e6;
+border-radius: 10px}
+input[type=reset]{padding: 12px 20px;
+margin: 8px 0;
+margin-left: 10px;
+box-sizing: border-box;
+border: 2px solid #c74d4d;
+color: #ffffff;
+background-color: #e68383;
+border-radius: 10px}
 /* Division Gallery*/
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-}
-
-div.gallery:hover {
-  border: 2px solid #777;
-}
-
-div.gallery img {
-  width: 75%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-    font-size: 2.0em
-}
-
-footer{
-background-color: #59a5b7;
+div.gallery{margin: 5px;
+border: 1px solid #ccc;
+float: left;}
+div.gallery:hover{border: 2px solid #777;}
+div.gallery img{width: 75%;
+height: auto;}
+div.desc{padding: 15px;
+text-align: center;
+font-size: 2.0em}
+footer{background-color: #59a5b7;
 color: #ffffff;
 font-size: .75em;
 text-align: center;
