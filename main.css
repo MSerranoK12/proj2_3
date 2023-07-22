@@ -182,8 +182,8 @@ height: 10px;}
 div.desc{padding: 10px;
 text-align: center;
 font-size: 2.0em}
-footer{background-color: #59a5b7;
+footer{background-color: #d4c46d;
 color: #ffffff;
-font-size: .25em;
+font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
 text-align: center;
 clear: left;}
