@@ -129,6 +129,14 @@ grid-column: 1/2;
 text-align: center;
 align-self: center;
 justify-self: center;}
+/* Card Columns*/
+div#card{margin: 5px;
+border: 1px dotted #ccc;}
+div.card img{width: 25%;
+height: 25%;}
+div.desc{padding: 2px;
+text-align: auto;
+font-size: 2em}
 input[type=text]{width: 75%;
 padding: 12px 20px;
 margin: 8px 0;
